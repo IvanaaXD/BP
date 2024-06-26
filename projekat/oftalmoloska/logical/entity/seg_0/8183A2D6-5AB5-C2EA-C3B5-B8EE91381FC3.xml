@@ -1,0 +1,365 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8183A2D6-5AB5-C2EA-C3B5-B8EE91381FC3" name="IZVESTAJ">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 11:47:43 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idizv" id="E82965AD-17E1-E119-5552-D8F6A7193EAD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:32:14 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datizv" id="F3BAA01C-0FBD-ECD3-73BB-4EB71A87DF5F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:38:24 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpreg" id="23744091-1FD6-8E63-7A32-3FF8A838B639">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:41:04 UTC</createdTime>
+<generatorID>01A44D86-6A94-5372-79DE-89347AB9F9FF</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<referedAttribute>A9923E54-EC6F-E3BF-245B-9B6A05A1BCFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpac" id="EF41E712-50F1-6CB9-6A9D-24D63BBA75A9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:41:04 UTC</createdTime>
+<generatorID>01A44D86-6A94-5372-79DE-89347AB9F9FF</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<referedAttribute>ECF48187-CD76-31B0-D49A-A1FFC1783863</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visus_l" id="26988619-BEB9-E645-44C6-AB1E36F7A497">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:54:51 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visus_d" id="02EAE059-BB7E-C53E-05AC-50D54FB08444">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:57:21 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pritisak_l" id="2F8B52AD-6F70-5980-DDD3-A67A95D8DFAC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:07 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pritisak_d" id="67C4917E-B8D5-6548-DFDF-CCB3ED0D6BEE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:07 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="predseg_l" id="82409ABF-1B73-B582-FC83-7169FD2E4C2D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:09 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="predseg_d" id="FB3CB63A-9649-599B-02F9-AED7D00D90AF">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:09 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zadseg_l" id="7B314F44-C5BB-1141-6937-16C1BFC06F57">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:16 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zadseg_d" id="8325E85C-FBB6-F9C5-183A-7049B006B620">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:16 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kolvid_l" id="7A24A944-F24E-B103-1010-4CAE950116BA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:17 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kolvid_d" id="C73307B9-4002-ACFE-1B60-6F3096D434CC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:17 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="skijasko_l" id="B5D3DDFD-C956-E2C8-8EB2-DC4F1B289C24">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:17 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="skijasko_d" id="90A7FE48-716B-9CAC-0BA7-F4998B844417">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:17 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="shiremr_l" id="51D93200-A879-A8ED-26A3-2260C67EFF15">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:18 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="shiremr_d" id="76C9A28C-18D7-1948-DC60-C6789295A5F6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:18 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="strabo_l" id="8EF3B7BE-F065-6293-939B-5FE3FBCF4525">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:18 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="strabo_d" id="9C864E5D-1B78-854F-7DCC-49AB8D5606E7">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:18 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gonioskop_l" id="D8A04E7B-C240-8545-B150-2784D5897684">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:19 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gonioskop_d" id="3B52ED2C-97A0-9B71-0316-D6F8938199DA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:19 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vidpolj_l" id="46D22175-BFE1-1F58-8E18-E2530EFAD87C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:19 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vidpolj_d" id="9454B17D-7932-DA42-1191-18B767D6795E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:58:19 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="52797A78-11C2-003D-8D06-39F1CE644AAB" name="IZVEŠTAJ PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:38:13 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E82965AD-17E1-E119-5552-D8F6A7193EAD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

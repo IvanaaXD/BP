@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C89E5C6B-CBAD-D1E4-9358-5168847C6976" name="MED SESTRA">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:51:09 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>3E6C9693-95A2-E39B-95B2-B7A08ABEFFA4</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

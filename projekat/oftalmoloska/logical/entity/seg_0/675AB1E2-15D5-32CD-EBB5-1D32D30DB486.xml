@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="675AB1E2-15D5-32CD-EBB5-1D32D30DB486" name="BOLEST">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 11:45:04 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sifrabol" id="A2828F29-ECE3-6F16-8B6C-33458D8D37B6">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:26:43 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazivbol" id="48629493-5584-4A2D-DFEA-C3AB63E0BB5F">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:27:38 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klasbol" id="009E1BA8-16F4-446F-414D-4C1CB3B64EB5">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:28:04 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opisbol" id="E90DB8D3-2BA1-297E-837F-09F0A04B0D77">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:28:35 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idizv" id="A6452552-24EC-B68C-9130-9A72C9FED06E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:56:31 UTC</createdTime>
+<generatorID>158E8672-1061-EDB1-4902-CA1811C74D1B</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<referedAttribute>097BC4F5-66FB-576D-1DB6-709CBF3E065F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2412FDC5-FC53-C585-145B-679CF676AB65" name="BOLEST PK">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:27:36 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2828F29-ECE3-6F16-8B6C-33458D8D37B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

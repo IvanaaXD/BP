@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NALAZI SE" directorySegmentName="seg_0" id="F5EB399C-D0C0-445E-2CEA-5BD233AF0496">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:02:26 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="30D2C360-E9B3-4F73-B054-E70F88EF7450" value="true"/>
+</engineerTo>
+<sourcePk>E673A48C-D378-810D-DC9D-4E2439429D8B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>17D51B55-AE9F-D102-2069-345070B8F281</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>444CCE96-305E-8F14-FE26-582E7EF33623</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

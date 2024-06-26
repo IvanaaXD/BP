@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58A8C961-3D71-0864-EFBD-50BDD5B637CC" name="CLAN_PORODICE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>1F37E943-9DBD-8E6D-6D05-C361D03A367D</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idcp" id="3A9BEC69-FC0D-C050-E198-B9240FE790AF">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>88F410E0-984C-0A97-FB88-FF9722A8C612</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="srodstvo" id="EA9D144C-8C74-855B-D0F3-ED5499CEA9EB">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>B01A8FB4-519B-ED85-99A1-BB319D8A8D76</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idpac" id="245B4CBE-4EB0-46C8-BDF6-64FB8D676A87">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>56BD2AF5-FDDE-D6A9-F156-5FA08EA02914</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2959635-35FF-83A7-3D3E-1300996CCBCD" referredColumn="662C33A3-0C32-28F9-CF32-42074AC32837"/>
+</associations>
+</Column>
+<Column name="imeclana" id="95518A38-AE3C-0444-1907-15E968626F44">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>2EB84626-1A49-8794-DE72-EC48E8E23A54</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezclana" id="5BBAB4B9-5C19-94A9-ACB6-F307E74E4B46">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>1FD71F52-9B38-0DB7-7E9A-6D2444797EB7</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F48FD05-A7A7-785E-499C-350594090A3A" name="CLAN_PORODICE_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>38CF64ED-00D7-3288-D26B-B22884F8AF98</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A9BEC69-FC0D-C050-E198-B9240FE790AF"/>
+<colUsage columnID="245B4CBE-4EB0-46C8-BDF6-64FB8D676A87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BA6F567-3C9C-F9CF-D248-3CEDEFAE0162" name="CLAN_PORODICE_PACIJENT_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>B5A2AB90-A900-3809-ADB4-38953DFD3D69</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="245B4CBE-4EB0-46C8-BDF6-64FB8D676A87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

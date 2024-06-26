@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="125BE19F-D20C-6AE9-8B77-ECF2D3A811E6" name="ORDINACIJA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>17D51B55-AE9F-D102-2069-345070B8F281</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idoft" id="3011C581-C0AE-1C7D-B22F-2B73888F8B61">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>D891B87E-2696-1DAB-C4A3-28158A313FBE</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazivoft" id="43416B2D-265A-BE9E-346B-0768C687F27E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>F6646CFC-43B3-B661-2492-1A64263CE656</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresaoft" id="D60038CE-7F87-7AA7-ECD5-131F3F09A1C5">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>17014863-1FB8-F6A6-A475-419A9D82D28F</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C15DC56-6FD6-F191-0CE5-78AA70C4CEED" name="ORDINACIJA_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>E673A48C-D378-810D-DC9D-4E2439429D8B</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3011C581-C0AE-1C7D-B22F-2B73888F8B61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

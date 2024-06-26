@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C482144-4B07-2CCA-11E2-473804E7AEC1" name="STAC_LECENJE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>6B77EFE3-F21B-C1CB-27C9-4BAE61A1340F</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="iduput" id="7BF8EED2-80E8-5165-30C5-DA063F6B82CA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>36C1E045-FEA4-75ED-A7E6-C039C05EBA10</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="366E05F9-01F5-CF6E-B83B-EEF2DAFCDC6F" referredColumn="E4E66215-473D-6B42-378A-12FEAD66BE92"/>
+</associations>
+</Column>
+<Column name="razlog" id="FD0EB4C7-EF02-4000-CFC2-38C2222FD112">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>FC03A01A-602A-50E9-01EC-DB3A3D40A939</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FAE454F2-6FC7-8D85-FEAC-AE59E9873943" name="STAC_LECENJE_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>7D5DBC72-5762-798B-DE3F-5D164EB9CFD4</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BF8EED2-80E8-5165-30C5-DA063F6B82CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8997D566-01E0-10C5-3CDB-C6197FF6EDA3" name="STAC_LECENJE_UPUT_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>B6A22157-E87D-5781-C83F-8DA783E2B381</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BF8EED2-80E8-5165-30C5-DA063F6B82CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

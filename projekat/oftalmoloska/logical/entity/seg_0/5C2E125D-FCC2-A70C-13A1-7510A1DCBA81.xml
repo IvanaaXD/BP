@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C2E125D-FCC2-A70C-13A1-7510A1DCBA81" name="JE IMAO">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:34:33 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sifrabol" id="C38C27E0-8CEB-FEB8-5EE0-25F3098A4E0E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 10:02:00 UTC</createdTime>
+<generatorID>F1B697DE-A329-0F42-5342-4D6FB4D38B39</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<referedAttribute>A2828F29-ECE3-6F16-8B6C-33458D8D37B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idcp" id="D15A7C44-7DDC-4F73-9DEF-61EAFA4B4DF1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 10:10:26 UTC</createdTime>
+<generatorID>8CF4730B-A690-C772-17BB-184896CB15BA</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<referedAttribute>88F410E0-984C-0A97-FB88-FF9722A8C612</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpac" id="550C187D-B2C1-63B9-D63B-B46F1266752A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 10:11:59 UTC</createdTime>
+<generatorID>8CF4730B-A690-C772-17BB-184896CB15BA</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<referedAttribute>56BD2AF5-FDDE-D6A9-F156-5FA08EA02914</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idizv" id="2761BAB0-7538-7EAB-046E-8FC3867CEEC3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 10:14:52 UTC</createdTime>
+<generatorID>69DFF417-1325-80EF-BF12-E1232FC98430</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<referedAttribute>097BC4F5-66FB-576D-1DB6-709CBF3E065F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD23CF99-6F26-84D5-4A96-4DC35094B3FF" name="JE IMAO PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 10:02:00 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C38C27E0-8CEB-FEB8-5EE0-25F3098A4E0E</attributeRef>
+<attributeRef>D15A7C44-7DDC-4F73-9DEF-61EAFA4B4DF1</attributeRef>
+<attributeRef>550C187D-B2C1-63B9-D63B-B46F1266752A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

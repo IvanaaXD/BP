@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D673E7B-DE62-44CB-B01A-1C049A1AF28A" name="UREDJAJ">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>B1BA405B-9F38-A58A-B653-72964656741A</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idoft" id="4E2DB5B1-12AD-A3FD-A7CA-653A0F28762D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>0F56C500-CFEE-2527-1630-A1B09458D822</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F17A2AB7-00E4-E407-652E-65DBDA873A43" referredColumn="82CE36EE-6F73-703B-8F30-51E3DAAE9512"/>
+</associations>
+</Column>
+<Column name="idobj" id="FEFC13D4-FB7C-1D83-28B1-A9BA3A704D89">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>361632DD-C2FD-394C-2F3B-6EB0CACC959A</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F17A2AB7-00E4-E407-652E-65DBDA873A43" referredColumn="6C88DC57-E2A1-D7E9-D510-F6CF38E05941"/>
+</associations>
+</Column>
+<Column name="iduredj" id="D742672D-81AA-82FA-AFF6-A4B35C62D1D9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>603D27CA-A58A-A651-7E8B-A018E4670DE4</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazivuredj" id="5045D1EA-7F60-A772-0106-189C8392BF5C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>9D8B197C-4A9D-16DC-0A00-2B4AAB5ADF0F</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idtipu" id="91036F53-366A-5EFC-9EEB-98B31815276E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>DA5265EF-FF10-D30F-439F-EC3682918B27</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1227915D-096B-AA85-6010-C2365035E649" referredColumn="E765FF20-E1C2-1D9E-1C3D-F898C3AED051"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6F9E52D-233E-3886-A562-584DBFE4619F" name="UREDJAJ_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>D0BF4786-C996-D620-8C04-0954C1B8AB39</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E2DB5B1-12AD-A3FD-A7CA-653A0F28762D"/>
+<colUsage columnID="FEFC13D4-FB7C-1D83-28B1-A9BA3A704D89"/>
+<colUsage columnID="D742672D-81AA-82FA-AFF6-A4B35C62D1D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3A467F5-E7EE-6E9C-5AF2-9D1EDE9913A2" name="UREDJAJ_TIP_UREDJAJA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>AEB3E221-5310-E6DD-CB02-B7EBC3DEDC26</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91036F53-366A-5EFC-9EEB-98B31815276E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6124D0A4-12E2-B87A-B161-00272A10C29C" name="UREDJAJ_OBJEKAT_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>13B1A344-BD93-5CAD-97E9-9A5A53FFFD6E</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E2DB5B1-12AD-A3FD-A7CA-653A0F28762D"/>
+<colUsage columnID="FEFC13D4-FB7C-1D83-28B1-A9BA3A704D89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

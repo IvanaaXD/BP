@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BFD3115A-5301-6735-0BCF-0054EA972953" containerWithKeyObject="68536D0B-F082-E17A-7E02-D73A259271E3" localFKIndex="E34E16DB-659C-11EB-CDC2-49DFD973C7B0" name="JE_IMAO_BOLEST_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>F1B697DE-A329-0F42-5342-4D6FB4D38B39</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<referredTableLongName>BOLEST</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6032AB7B-C11D-FE7B-CBC1-FBAA7B1B917B</referredTableID>
+<keyObject>DEE72D65-239D-568D-362C-B4C6C3B2F5D0</keyObject>
+<referredKeyID>DEE72D65-239D-568D-362C-B4C6C3B2F5D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sifrabol</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

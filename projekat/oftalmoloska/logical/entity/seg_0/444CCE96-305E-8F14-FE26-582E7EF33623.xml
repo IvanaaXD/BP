@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="444CCE96-305E-8F14-FE26-582E7EF33623" name="OBJEKAT">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 11:57:09 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>7F8708C0-D9BF-BC26-8DD0-C14D1A9C7715</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idoft" id="608A6D65-228C-8DC3-ED6C-6FD71D5DB448">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:02:26 UTC</createdTime>
+<generatorID>F5EB399C-D0C0-445E-2CEA-5BD233AF0496</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<referedAttribute>D891B87E-2696-1DAB-C4A3-28158A313FBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idobj" id="7F8708C0-D9BF-BC26-8DD0-C14D1A9C7715">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:07:32 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazivobj" id="D4990FEA-167E-A720-FF10-BC4A9D2CE64F">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:08:24 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idrad" id="076853D2-4FF6-F61D-362D-170B963ECB86">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:12:01 UTC</createdTime>
+<generatorID>9678E544-4B18-CCCF-B227-31E2E9BA838D</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7FF48F1A-9BF6-9A8F-4051-8F7B6F1065EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresaobj" id="20D5C8F4-9B71-A613-325C-DC29BD7B36D6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:49:57 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F70D57E8-86C6-1141-CE0E-C5164663B757" name="OBJEKAT PK">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:02:26 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>608A6D65-228C-8DC3-ED6C-6FD71D5DB448</attributeRef>
+<attributeRef>7F8708C0-D9BF-BC26-8DD0-C14D1A9C7715</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PREGLED_BIRA_SE_FK" directorySegmentName="seg_0" id="E53FBC58-656D-BD70-5219-11942EDC5387">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:07:21 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="B36433CD-D4B1-727E-DEB3-EC18F44C4723" value="true"/>
+</engineerTo>
+<sourcePk>A166E3AB-A28C-0048-4982-38D526CF8681</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E3C2CCFB-C27D-2866-6E53-4973AD306977</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>829FCDE1-5DDA-BE17-91ED-8E7757325AEB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

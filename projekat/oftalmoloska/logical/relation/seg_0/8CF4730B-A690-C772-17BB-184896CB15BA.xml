@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLANP_FK" directorySegmentName="seg_0" id="8CF4730B-A690-C772-17BB-184896CB15BA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 10:03:05 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<sourcePk>38CF64ED-00D7-3288-D26B-B22884F8AF98</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1F37E943-9DBD-8E6D-6D05-C361D03A367D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C2E125D-FCC2-A70C-13A1-7510A1DCBA81</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

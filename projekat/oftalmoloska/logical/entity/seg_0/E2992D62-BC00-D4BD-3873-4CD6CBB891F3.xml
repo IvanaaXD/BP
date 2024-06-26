@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2992D62-BC00-D4BD-3873-4CD6CBB891F3" name="CENOVNIK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 08:26:41 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="datpoc" id="E5F4A628-52B3-886C-1CB9-BCBE35063F43">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 08:27:34 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datzav" id="A30BEF7E-641A-D82F-1043-1E9E61EDBEF5">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 08:34:11 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos" id="E61332EA-B224-B343-3C92-534F9A82B349">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 08:36:34 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idtp" id="FBEA6C62-9AF5-9F40-5716-2BE226580EFE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 08:53:02 UTC</createdTime>
+<generatorID>5245ECA4-A8B0-37D0-DF53-A37AD4CB25D0</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<referedAttribute>4E199468-88D4-FD6E-DAB9-846AF3B4AF44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38708BD9-ACFE-E1C7-16D1-03E45724B4D0" name="Cenovnik PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 08:32:02 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E5F4A628-52B3-886C-1CB9-BCBE35063F43</attributeRef>
+<attributeRef>FBEA6C62-9AF5-9F40-5716-2BE226580EFE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

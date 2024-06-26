@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DAJE" directorySegmentName="seg_0" id="8D620F33-A8F9-7482-1EBF-DD362012FC88">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:27:24 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<sourcePk>A166E3AB-A28C-0048-4982-38D526CF8681</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E3C2CCFB-C27D-2866-6E53-4973AD306977</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A3AFC354-C27A-7EC2-EA26-9608703CAFD3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

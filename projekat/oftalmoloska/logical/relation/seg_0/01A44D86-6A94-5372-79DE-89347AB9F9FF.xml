@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KREIRA" directorySegmentName="seg_0" id="01A44D86-6A94-5372-79DE-89347AB9F9FF">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:40:19 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="B36433CD-D4B1-727E-DEB3-EC18F44C4723" value="true"/>
+</engineerTo>
+<sourcePk>52797A78-11C2-003D-8D06-39F1CE644AAB</sourcePk>
+<targetPk>A166E3AB-A28C-0048-4982-38D526CF8681</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8183A2D6-5AB5-C2EA-C3B5-B8EE91381FC3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E3C2CCFB-C27D-2866-6E53-4973AD306977</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

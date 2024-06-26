@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA79F1DC-FAD2-96BB-954E-FD31F204049E" name="ADMIN">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>3325450C-04F0-140A-0F71-3D7AC85F81E7</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idrad" id="2BC57339-66BE-1B32-EC83-8F7CBF4C8A2A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>AD229C60-354D-E01E-D335-28C3489FE0D5</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B22B7D04-D69D-121D-1782-6A188A14B25B" referredColumn="AD19B7E6-4691-C083-7C86-E2B694EB6CAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56DD9664-81FF-E53D-46D4-75C3B9A15340" name="ADMIN_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>D39B75E9-E0C3-C235-50E7-9D3625FBCD86</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BC57339-66BE-1B32-EC83-8F7CBF4C8A2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CB2C3B0-E29A-536B-D3F9-AD701AA42E84" name="ADMIN_RADNIK_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>5E06B19B-79BD-587D-80FE-A26E891E814A</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BC57339-66BE-1B32-EC83-8F7CBF4C8A2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

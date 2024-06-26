@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11C0F6C4-3E14-BD3B-5C17-F70B395854EE" containerWithKeyObject="35A7651A-15B1-A4E6-D03E-A8A1993B52D1" localFKIndex="1D9F01C3-0B0D-7C81-E3D0-AF639F8827FD" name="PREGLED_TIP_PREGLEDA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>E27A57C6-1010-2D3E-19DA-CAC887A9713C</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<referredTableLongName>TIP_PREGLEDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E79A89A6-4481-13E9-3B51-8AB471CF1406</referredTableID>
+<keyObject>98833633-822D-0F81-8989-9B247515B2FA</keyObject>
+<referredKeyID>98833633-822D-0F81-8989-9B247515B2FA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idtp</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

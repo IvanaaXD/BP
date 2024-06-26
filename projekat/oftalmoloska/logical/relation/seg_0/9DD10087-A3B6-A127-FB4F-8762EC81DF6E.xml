@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LEK_FK" directorySegmentName="seg_0" id="9DD10087-A3B6-A127-FB4F-8762EC81DF6E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 18:56:47 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<sourcePk>BB24A857-4CC9-85D7-E5F0-698B8955683F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5F4A99FA-D84B-6DF4-8971-F88F51723D9C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>93C9D80C-DA22-4F5A-F1B9-A8CE986A8556</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

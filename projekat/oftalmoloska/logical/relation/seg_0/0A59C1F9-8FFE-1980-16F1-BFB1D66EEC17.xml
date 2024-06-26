@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SALJE" directorySegmentName="seg_0" id="0A59C1F9-8FFE-1980-16F1-BFB1D66EEC17">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:18:21 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<sourcePk>F70D57E8-86C6-1141-CE0E-C5164663B757</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>444CCE96-305E-8F14-FE26-582E7EF33623</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>612FA44F-8893-99F6-56DD-C9C28EED0AE4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

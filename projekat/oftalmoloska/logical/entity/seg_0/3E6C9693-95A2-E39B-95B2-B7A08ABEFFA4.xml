@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E6C9693-95A2-E39B-95B2-B7A08ABEFFA4" name="RADNIK">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:37:39 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>FB3A0EAB-5B13-FA9C-7F3D-7B33DAA5A0B5</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idoft" id="131B6ED8-BF49-76F7-3766-3C3BBD066F53">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:38:28 UTC</createdTime>
+<generatorID>402576A7-3DE4-F774-E510-B9798869C2C9</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<referedAttribute>608A6D65-228C-8DC3-ED6C-6FD71D5DB448</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idobj" id="6121D339-2509-2D69-2D39-B34EBFBCCF05">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:38:28 UTC</createdTime>
+<generatorID>402576A7-3DE4-F774-E510-B9798869C2C9</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<referedAttribute>7F8708C0-D9BF-BC26-8DD0-C14D1A9C7715</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idrad" id="AD229C60-354D-E01E-D335-28C3489FE0D5">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:47:21 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datzap" id="23573C50-7543-6E8E-E080-E298F285D99D">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:49:36 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tiprad" id="FB3A0EAB-5B13-FA9C-7F3D-7B33DAA5A0B5">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:50:31 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6ABA5AAC-7829-1DF2-59E2-9D651C03AFE6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imerad" id="AB3BFD0C-6AD9-C58F-4778-7C70D836989A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:40:57 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezrad" id="F0ED3E4F-1884-A5EB-A456-BDE7CA478EF4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:41:58 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datrodjrad" id="FDDE3024-30B5-9071-4F2B-35CCCAF52A0E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:42:34 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emailrad" id="E168B012-769F-4AA5-F70E-688E11904A5F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:43:10 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lozrad" id="2940BB65-4C2B-8396-DCFB-AC514AA06FC6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:45:45 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pol" id="6AD3D7C0-49A3-6168-0A19-FCB4FF98A926">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:46:07 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>51EE9F9D-D15B-9285-5231-C2D0CAF19B6A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D39B75E9-E0C3-C235-50E7-9D3625FBCD86" name="RADNIK PK">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:38:15 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD229C60-354D-E01E-D335-28C3489FE0D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

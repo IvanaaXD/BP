@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DOZA_FK" directorySegmentName="seg_0" id="D9F94F8C-261C-FFDF-D5CC-115D966FF5EA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 18:53:15 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<sourcePk>6640E3AF-C1D3-3B1A-FE9D-8424E88192E5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>27AA3472-34D2-4A6E-9F84-51C0F842102D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>390522D2-E707-921F-417A-EA3E99ECA297</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

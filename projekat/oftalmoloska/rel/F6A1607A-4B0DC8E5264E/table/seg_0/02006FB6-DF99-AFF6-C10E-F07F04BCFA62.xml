@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02006FB6-DF99-AFF6-C10E-F07F04BCFA62" name="TERAPIJA_DOZA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>390522D2-E707-921F-417A-EA3E99ECA297</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sifrabol" id="F52EFD47-24F7-CB7E-EFA6-F95DBDD46815">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>916E76BE-4ECA-20E9-B132-9FD1A81198C5</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="441674E2-3EF1-9E5D-FC13-8C4DAA5978B1" referredColumn="4B381DAF-4DEB-B68C-A331-7C58AA94A258"/>
+</associations>
+</Column>
+<Column name="idpreg" id="CC8AA9BC-5557-A990-DFEC-51AAC28192B6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>D6E6AF2A-D649-AF8D-4059-A0BAABB66E66</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="441674E2-3EF1-9E5D-FC13-8C4DAA5978B1" referredColumn="A0D0854B-BFE3-CE24-1497-5C0DEE1301C1"/>
+</associations>
+</Column>
+<Column name="idpac" id="626E09EC-ABA9-942B-E358-3E67B5DC81B8">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>524FCB88-8F98-2F2A-615E-360F558733D9</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="441674E2-3EF1-9E5D-FC13-8C4DAA5978B1" referredColumn="4EDBA15A-1318-AD00-36A6-609AF5924EE6"/>
+</associations>
+</Column>
+<Column name="idlek" id="90FB840B-57D1-A4B6-57F6-0078A825D54F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>0D01A675-31AF-5C39-0AEA-B923EDC137E0</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C59E45D3-3390-8EB8-CDCD-3B3D37698A8C" referredColumn="2196D5CE-5125-A743-2287-9C0DB5B2CA9B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1128268-A263-BF8F-120A-5005692FD0E6" name="TERAPIJA_DOZA_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>F1EEF201-07D4-6325-A923-6572EEF3C6DD</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F52EFD47-24F7-CB7E-EFA6-F95DBDD46815"/>
+<colUsage columnID="CC8AA9BC-5557-A990-DFEC-51AAC28192B6"/>
+<colUsage columnID="626E09EC-ABA9-942B-E358-3E67B5DC81B8"/>
+<colUsage columnID="90FB840B-57D1-A4B6-57F6-0078A825D54F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F89992A-1E57-3A87-BA28-B8DA9B33D40A" name="TERAPIJA_DOZA_DOZA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>D9F94F8C-261C-FFDF-D5CC-115D966FF5EA</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90FB840B-57D1-A4B6-57F6-0078A825D54F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E596F80-2C64-6258-C892-9D029B073771" name="TERAPIJA_DOZA_TERAPIJA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>0C1EA9EC-7E6A-B955-815B-0A27FDD5AB3B</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F52EFD47-24F7-CB7E-EFA6-F95DBDD46815"/>
+<colUsage columnID="CC8AA9BC-5557-A990-DFEC-51AAC28192B6"/>
+<colUsage columnID="626E09EC-ABA9-942B-E358-3E67B5DC81B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

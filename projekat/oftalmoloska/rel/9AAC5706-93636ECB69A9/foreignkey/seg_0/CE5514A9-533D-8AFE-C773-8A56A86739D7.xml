@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE5514A9-533D-8AFE-C773-8A56A86739D7" containerWithKeyObject="86835465-9E92-4661-8AB4-3AA4AFF1C9CA" localFKIndex="6905BB01-B3EB-4F68-0282-088670489CBD" name="MED_SESTRA_RADNIK_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>A5606698-1CFC-8151-A46D-6C19BEE1914D</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<referredTableLongName>RADNIK</referredTableLongName>
+<arc>81F72FC0-286F-6FE2-5450-AF729610D886</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B32229AF-A090-D428-0578-1390F3428DFC</referredTableID>
+<keyObject>AB12F05E-1803-DF69-7903-3F3E28B5CE58</keyObject>
+<referredKeyID>AB12F05E-1803-DF69-7903-3F3E28B5CE58</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idrad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>medicinskasestra</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

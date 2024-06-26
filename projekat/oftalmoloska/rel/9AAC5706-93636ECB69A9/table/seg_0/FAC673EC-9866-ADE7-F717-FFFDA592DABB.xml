@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAC673EC-9866-ADE7-F717-FFFDA592DABB" name="LEK_ANAMNEZA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idlek" id="BD5A7D80-3914-A228-55BD-ED094094BF41">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0917AE38-9C43-E462-DFEC-467F7E8FAC50" referredColumn="00614217-A4EE-D84E-B6D0-B2EE144AFF8A"/>
+</associations>
+</Column>
+<Column name="idizv" id="3FB0ACCE-3346-873F-EC29-3389766F0790">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB12E391-B282-E1C8-1D21-F3D80351F84A" referredColumn="BC899BEF-D341-D8B9-0A02-6B7BCDCA3B4F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="535AAA4C-0746-3BEE-0458-AF6D7F893BCB" name="LEK_ANAMNEZA_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD5A7D80-3914-A228-55BD-ED094094BF41"/>
+<colUsage columnID="3FB0ACCE-3346-873F-EC29-3389766F0790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7179EEAE-D9BA-4112-15E1-D7EDA3CAC834" name="LEK_ANAMNEZA_LEK_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>56953EAC-8312-F386-A324-4B37F670CA97</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD5A7D80-3914-A228-55BD-ED094094BF41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8AB0EB3-CABB-6A89-8C74-82A521B63368" name="LEK_ANAMNEZA_ANAMNEZA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>56953EAC-8312-F386-A324-4B37F670CA97</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FB0ACCE-3346-873F-EC29-3389766F0790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

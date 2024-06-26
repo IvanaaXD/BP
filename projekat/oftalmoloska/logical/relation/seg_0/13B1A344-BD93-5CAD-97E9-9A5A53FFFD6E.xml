@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SADRŽI" directorySegmentName="seg_0" id="13B1A344-BD93-5CAD-97E9-9A5A53FFFD6E">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:19:13 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<sourcePk>F70D57E8-86C6-1141-CE0E-C5164663B757</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>444CCE96-305E-8F14-FE26-582E7EF33623</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1BA405B-9F38-A58A-B653-72964656741A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

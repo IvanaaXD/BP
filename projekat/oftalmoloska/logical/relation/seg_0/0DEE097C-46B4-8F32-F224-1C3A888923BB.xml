@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PREPISUJE SE" directorySegmentName="seg_0" id="0DEE097C-46B4-8F32-F224-1C3A888923BB">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:09:52 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<sourcePk>BDB165AF-D774-FD74-47AA-02DF46D8C29A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A3AFC354-C27A-7EC2-EA26-9608703CAFD3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37F553C3-AA67-BA81-442A-AD312CB978CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

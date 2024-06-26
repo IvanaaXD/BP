@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="390522D2-E707-921F-417A-EA3E99ECA297" name="TERAPIJA_DOZA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 18:52:24 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sifrabol" id="916E76BE-4ECA-20E9-B132-9FD1A81198C5">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 18:52:59 UTC</createdTime>
+<generatorID>0C1EA9EC-7E6A-B955-815B-0A27FDD5AB3B</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<referedAttribute>67F4AC3E-90FE-B230-C3B2-4DE258F0EC2E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpreg" id="D6E6AF2A-D649-AF8D-4059-A0BAABB66E66">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 18:52:59 UTC</createdTime>
+<generatorID>0C1EA9EC-7E6A-B955-815B-0A27FDD5AB3B</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<referedAttribute>BFE06BA9-4FA3-BD2D-6AC1-C7375C0B802B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpac" id="524FCB88-8F98-2F2A-615E-360F558733D9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 18:52:59 UTC</createdTime>
+<generatorID>0C1EA9EC-7E6A-B955-815B-0A27FDD5AB3B</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<referedAttribute>9E24B9C4-EC7D-4F75-2436-C05820AE1945</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idlek" id="0D01A675-31AF-5C39-0AEA-B923EDC137E0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 18:53:15 UTC</createdTime>
+<generatorID>D9F94F8C-261C-FFDF-D5CC-115D966FF5EA</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<referedAttribute>02A56FB1-43EA-7763-0085-66AC63FD9539</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1EEF201-07D4-6325-A923-6572EEF3C6DD" name="TERAPIJA_DOZA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 18:52:59 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>916E76BE-4ECA-20E9-B132-9FD1A81198C5</attributeRef>
+<attributeRef>D6E6AF2A-D649-AF8D-4059-A0BAABB66E66</attributeRef>
+<attributeRef>524FCB88-8F98-2F2A-615E-360F558733D9</attributeRef>
+<attributeRef>0D01A675-31AF-5C39-0AEA-B923EDC137E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

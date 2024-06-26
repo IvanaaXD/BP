@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TL_TIPP_FK" directorySegmentName="seg_0" id="88F9B3DD-2EE1-FDB7-1D45-615E1B0932EF">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:02:46 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<sourcePk>216C2C34-DB46-3CDA-89B0-BA9E6F314AF2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A07E02F7-91BB-186E-525C-E9598AED5CB1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>30AAC32D-833D-E102-4F49-5CD2FDDA18EB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

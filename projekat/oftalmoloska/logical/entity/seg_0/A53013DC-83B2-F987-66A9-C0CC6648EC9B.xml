@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A53013DC-83B2-F987-66A9-C0CC6648EC9B" name="ANAMNEZA">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:15:54 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="stetnenavike" id="9AB16630-FA7A-8B4D-377A-4DC0F3CF8025">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:23:32 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alergije" id="EEC01D2C-5472-B3FF-2203-A8942054341A">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:24:03 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="razdolaska" id="D8483343-4DBC-FBAE-CB0D-5BD64E59682C">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:24:23 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idizv" id="097BC4F5-66FB-576D-1DB6-709CBF3E065F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:56:12 UTC</createdTime>
+<generatorID>C810F444-36FB-FD9F-F403-6A113D4FB745</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<referedAttribute>E82965AD-17E1-E119-5552-D8F6A7193EAD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22F3B47F-DC22-81C3-0863-8FF32EBD4B84" name="ANAMNEZA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:43:38 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>097BC4F5-66FB-576D-1DB6-709CBF3E065F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

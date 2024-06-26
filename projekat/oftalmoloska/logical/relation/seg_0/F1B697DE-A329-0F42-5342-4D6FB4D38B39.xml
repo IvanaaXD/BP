@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BOLEST_FK" directorySegmentName="seg_0" id="F1B697DE-A329-0F42-5342-4D6FB4D38B39">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 10:02:00 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<sourcePk>2412FDC5-FC53-C585-145B-679CF676AB65</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>675AB1E2-15D5-32CD-EBB5-1D32D30DB486</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C2E125D-FCC2-A70C-13A1-7510A1DCBA81</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

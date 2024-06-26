@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27AA3472-34D2-4A6E-9F84-51C0F842102D" name="DOZA">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:59:12 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idlek" id="02A56FB1-43EA-7763-0085-66AC63FD9539">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:03:25 UTC</createdTime>
+<generatorID>DE79445D-4C65-F845-A773-0BF92B562C0A</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<referedAttribute>56D32769-9CC0-D9E6-9F75-E8DF6722CFD6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="brdan" id="EA9F87CB-743B-56E5-D77C-E809032BBA63">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:04:32 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klkputa" id="627F7ACD-9739-C5C6-7B02-088D490F8CDC">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:06:31 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6640E3AF-C1D3-3B1A-FE9D-8424E88192E5" name="DOZA PK">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:03:25 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02A56FB1-43EA-7763-0085-66AC63FD9539</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

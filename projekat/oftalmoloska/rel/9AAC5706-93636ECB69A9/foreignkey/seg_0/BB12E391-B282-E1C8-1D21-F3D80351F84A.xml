@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB12E391-B282-E1C8-1D21-F3D80351F84A" containerWithKeyObject="FAC673EC-9866-ADE7-F717-FFFDA592DABB" localFKIndex="C8AB0EB3-CABB-6A89-8C74-82A521B63368" name="LEK_ANAMNEZA_ANAMNEZA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>56953EAC-8312-F386-A324-4B37F670CA97</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<referredTableLongName>ANAMNEZA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>51EC1039-CAE2-8304-B6D7-65424921C2F3</referredTableID>
+<keyObject>97CC51B6-7F74-A25E-EEFC-66CB3B8BC0B6</keyObject>
+<referredKeyID>97CC51B6-7F74-A25E-EEFC-66CB3B8BC0B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idizv</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

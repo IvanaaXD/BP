@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="612FA44F-8893-99F6-56DD-C9C28EED0AE4" name="UPUT">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 11:44:52 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="iduput" id="36C1E045-FEA4-75ED-A7E6-C039C05EBA10">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 10:17:19 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpreg" id="82789A39-22CE-A3A9-1F50-57DA47528AC2">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:06:57 UTC</createdTime>
+<generatorID>31945E28-6952-81A4-6076-3DE158D78498</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<referedAttribute>A9923E54-EC6F-E3BF-245B-9B6A05A1BCFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpac" id="E398D1A6-77E8-283D-7BCB-9052E6BA3FB0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:06:57 UTC</createdTime>
+<generatorID>31945E28-6952-81A4-6076-3DE158D78498</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<referedAttribute>ECF48187-CD76-31B0-D49A-A1FFC1783863</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idoft" id="0425E120-2197-556E-2E40-C68A507C752A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:18:21 UTC</createdTime>
+<generatorID>0A59C1F9-8FFE-1980-16F1-BFB1D66EEC17</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<referedAttribute>608A6D65-228C-8DC3-ED6C-6FD71D5DB448</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idobj" id="8A1A52FB-6EA3-EAEC-4D29-2B09B7A75EB2">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 15:18:21 UTC</createdTime>
+<generatorID>0A59C1F9-8FFE-1980-16F1-BFB1D66EEC17</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<referedAttribute>7F8708C0-D9BF-BC26-8DD0-C14D1A9C7715</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipuputa" id="B9576F63-834A-680E-5251-2FFD46797F6B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 18:04:01 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>248D50B0-B695-B25F-15FC-C1720421CB17</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D5DBC72-5762-798B-DE3F-5D164EB9CFD4" name="UPUT PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 10:17:42 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>36C1E045-FEA4-75ED-A7E6-C039C05EBA10</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

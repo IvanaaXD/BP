@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30AAC32D-833D-E102-4F49-5CD2FDDA18EB" name="TIPP_LAB">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:02:31 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idtp" id="845DF2ED-6634-537C-D1B5-AB720F041038">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:02:46 UTC</createdTime>
+<generatorID>88F9B3DD-2EE1-FDB7-1D45-615E1B0932EF</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<referedAttribute>4E199468-88D4-FD6E-DAB9-846AF3B4AF44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iduput" id="EC74A341-14B6-BB18-B575-B6B8BD67BBEC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:03:11 UTC</createdTime>
+<generatorID>3E78401D-DECE-8F54-2E34-89FAC5B051D4</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<referedAttribute>36C1E045-FEA4-75ED-A7E6-C039C05EBA10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F8D17680-77E8-9485-7724-9F0D40F6D5B0" name="TIPP_LAB PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:27:04 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>845DF2ED-6634-537C-D1B5-AB720F041038</attributeRef>
+<attributeRef>EC74A341-14B6-BB18-B575-B6B8BD67BBEC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9799E38F-7D34-6429-CF9C-06E69AA964A1" containerWithKeyObject="7DDD8166-B013-B4EF-4D51-F36EFA8E904C" localFKIndex="B78C148F-0A80-FCD5-06FB-D0B305C9446C" name="STAC_LECENJE_UPUT_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>B6A22157-E87D-5781-C83F-8DA783E2B381</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<referredTableLongName>UPUT</referredTableLongName>
+<arc>9558129E-9F55-E891-8565-948B33C1B401</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F45C37A-A7B9-14E3-4C5D-65229A965044</referredTableID>
+<keyObject>6B8A4A33-BF67-6EA8-8B31-6BF7D82983CA</keyObject>
+<referredKeyID>6B8A4A33-BF67-6EA8-8B31-6BF7D82983CA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>iduput</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>statlecenje</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

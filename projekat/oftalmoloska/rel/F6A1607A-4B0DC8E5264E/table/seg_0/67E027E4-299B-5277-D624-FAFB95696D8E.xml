@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67E027E4-299B-5277-D624-FAFB95696D8E" name="BIRA_SE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>829FCDE1-5DDA-BE17-91ED-8E7757325AEB</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idrad" id="CD1C1E2F-3AE7-C1A9-EC86-8A2E3342D63A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>7FF48F1A-9BF6-9A8F-4051-8F7B6F1065EC</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96CC48BB-FD87-BF4E-4F4B-6DBC9B00C758" referredColumn="3210A1E8-65A5-1A27-29BA-3D681328EF82"/>
+</associations>
+</Column>
+<Column name="idpreg" id="DCBAE231-3960-DA49-5574-9F71066A4DAC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>B1D31AD6-3EE1-E966-D610-BEDE17876FC5</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81034238-85B1-C611-3C75-096FC869C69B" referredColumn="305B4E47-95D4-0F60-FC9C-3F3B711784C1"/>
+</associations>
+</Column>
+<Column name="idpac" id="DFAA6C9E-9564-488A-AA1C-73D3CA8C54DA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>975B84AE-E9E0-C53F-F498-5CA8058D0A18</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81034238-85B1-C611-3C75-096FC869C69B" referredColumn="6804AA77-8A37-0DD4-E76D-88D90EAA18D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="380CF16D-17B4-3124-A4FB-F659A2423BC6" name="BIRA_SE_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>6027A851-7638-7490-20A1-829FFA05DEC4</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD1C1E2F-3AE7-C1A9-EC86-8A2E3342D63A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="707A306E-4215-F244-8D64-E9617529BE8A" name="BIRA_SE_LEKAR_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>E379FD83-7CDF-0048-4C63-95C32C0437B9</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD1C1E2F-3AE7-C1A9-EC86-8A2E3342D63A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E42F5B5E-EDA6-FDBC-3B88-13F498E03E65" name="BIRA_SE_PREGLED_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>E53FBC58-656D-BD70-5219-11942EDC5387</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCBAE231-3960-DA49-5574-9F71066A4DAC"/>
+<colUsage columnID="DFAA6C9E-9564-488A-AA1C-73D3CA8C54DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

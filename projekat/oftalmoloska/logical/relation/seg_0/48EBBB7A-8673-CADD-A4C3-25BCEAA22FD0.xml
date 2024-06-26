@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TIPU_FK" directorySegmentName="seg_0" id="48EBBB7A-8673-CADD-A4C3-25BCEAA22FD0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:01:10 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<sourcePk>11F3A926-AE04-F266-8925-BE9FF7A0AE3A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>75CF88EC-6116-9BB1-E980-A39808DD288A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>303AB4DE-4DB6-A5FD-C55E-B4977F9FA578</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8A2D624E-A096-6B3D-1BE8-6F7582E6BA90" containerWithKeyObject="5EF8E639-FCFF-6038-816D-9869BFF4BE03" localFKIndex="652EC292-6210-073C-84F3-AF03E59A0815" name="TERAPIJA_DIJAGNOZA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>0DEE097C-46B4-8F32-F224-1C3A888923BB</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<referredTableLongName>DIJAGNOZA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9393F008-4095-0F5B-7108-3F1FBFED9458</referredTableID>
+<keyObject>4D530F6B-040C-0FF8-772D-87A52C6DBC6F</keyObject>
+<referredKeyID>4D530F6B-040C-0FF8-772D-87A52C6DBC6F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sifrabol,idpreg,idpac</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

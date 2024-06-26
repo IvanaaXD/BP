@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANAMNEZA_FK" directorySegmentName="seg_0" id="E00F0B34-DB32-0909-2A09-E25B50858884">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 18:57:01 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="EE4279AD-B2E7-EB69-68AA-AE751D4E47AF" value="true"/>
+</engineerTo>
+<sourcePk>22F3B47F-DC22-81C3-0863-8FF32EBD4B84</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A53013DC-83B2-F987-66A9-C0CC6648EC9B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>93C9D80C-DA22-4F5A-F1B9-A8CE986A8556</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

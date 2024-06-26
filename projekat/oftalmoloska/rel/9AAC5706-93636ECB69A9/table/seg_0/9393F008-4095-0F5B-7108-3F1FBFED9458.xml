@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9393F008-4095-0F5B-7108-3F1FBFED9458" name="DIJAGNOZA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>A3AFC354-C27A-7EC2-EA26-9608703CAFD3</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sifrabol" id="9A86C557-B225-6DF5-C0F9-BF56EC871F78">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>300E0713-DF3C-BB03-5607-C12B8EBC2227</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDAFDEA6-6248-3F51-D226-98A9FCD72C41" referredColumn="AE25F7A7-19DA-90AF-2974-91BB684BFDCA"/>
+</associations>
+</Column>
+<Column name="idpreg" id="796CE5A7-9E43-49E6-82E1-F7DC43C6ACA7">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>839A65D7-0EE9-33CC-37C0-348F82DD956A</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA0CC20F-27F2-DE3D-E81B-B70E1870806D" referredColumn="509F3339-CB67-FE88-1BEF-31A53A6EE976"/>
+</associations>
+</Column>
+<Column name="idpac" id="BED11946-AB37-253D-3C74-69474E2485C0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>22A5A669-8705-B41B-2000-58330D6D892F</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA0CC20F-27F2-DE3D-E81B-B70E1870806D" referredColumn="2169B7CC-2FCC-E347-1DB3-4EC48CF4C85D"/>
+</associations>
+</Column>
+<Column name="opisdij" id="0936876D-71A0-BC4E-E87C-9AC09BDF4D28">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>297A105C-8F8A-7F6F-DA93-DADF838B483F</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D530F6B-040C-0FF8-772D-87A52C6DBC6F" name="DIJAGNOZA_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>BDB165AF-D774-FD74-47AA-02DF46D8C29A</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A86C557-B225-6DF5-C0F9-BF56EC871F78"/>
+<colUsage columnID="796CE5A7-9E43-49E6-82E1-F7DC43C6ACA7"/>
+<colUsage columnID="BED11946-AB37-253D-3C74-69474E2485C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6913637D-7659-D801-0E07-570DD6230A30" name="DIJAGNOZA_PREGLED_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>8D620F33-A8F9-7482-1EBF-DD362012FC88</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="796CE5A7-9E43-49E6-82E1-F7DC43C6ACA7"/>
+<colUsage columnID="BED11946-AB37-253D-3C74-69474E2485C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A90A50F-175D-9DD5-634E-A913972E7927" name="DIJAGNOZA_BOLEST_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:44:25 UTC</createdTime>
+<generatorID>EC091A5E-F303-A2F3-B268-9EA36939BD87</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A86C557-B225-6DF5-C0F9-BF56EC871F78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

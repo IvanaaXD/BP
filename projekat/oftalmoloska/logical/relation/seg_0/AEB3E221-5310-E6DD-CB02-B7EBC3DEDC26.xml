@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="JE TIPA" directorySegmentName="seg_0" id="AEB3E221-5310-E6DD-CB02-B7EBC3DEDC26">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:21:36 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="30D2C360-E9B3-4F73-B054-E70F88EF7450" value="true"/>
+</engineerTo>
+<sourcePk>11F3A926-AE04-F266-8925-BE9FF7A0AE3A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>75CF88EC-6116-9BB1-E980-A39808DD288A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1BA405B-9F38-A58A-B653-72964656741A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

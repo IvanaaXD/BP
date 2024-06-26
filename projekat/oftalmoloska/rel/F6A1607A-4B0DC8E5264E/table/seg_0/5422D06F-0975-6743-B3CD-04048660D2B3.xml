@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5422D06F-0975-6743-B3CD-04048660D2B3" name="TIPU_LAB">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>303AB4DE-4DB6-A5FD-C55E-B4977F9FA578</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="iduput" id="12436DB9-0381-DE8B-D412-680C622D1A02">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>87152DAA-F0EE-01F5-75A7-127AB50E8D7E</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="455DAFE3-C26A-456E-A926-37F7BC6E78E3" referredColumn="E92A4580-17AE-A167-DD44-004CDC657016"/>
+</associations>
+</Column>
+<Column name="idtipu" id="AD8823A9-4D52-6055-FE2B-55335E753F27">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>8304D576-0BE6-1E10-B43F-A923688C7777</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB84E59F-F8E6-67EE-F7BC-75F680E45D5A" referredColumn="0112DDD4-DA2C-8E3F-C93B-D8CB6321DA5C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93E8D6D9-1679-2CFE-DD9A-F0E3683E3864" name="TIPU_LAB_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>64341284-9C22-4999-0138-5238630D86A6</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12436DB9-0381-DE8B-D412-680C622D1A02"/>
+<colUsage columnID="AD8823A9-4D52-6055-FE2B-55335E753F27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B7935C0-642C-8524-A293-AF6F49D5B9A6" name="TIPU_LAB_LABORATORIJA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>9ECADF64-96C5-0370-BC1D-900FF7328C69</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12436DB9-0381-DE8B-D412-680C622D1A02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDFE123B-014D-B0DA-47DC-514FA23BF99E" name="TIPU_LAB_TIP_UREDJAJA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>48EBBB7A-8673-CADD-A4C3-25BCEAA22FD0</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD8823A9-4D52-6055-FE2B-55335E753F27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

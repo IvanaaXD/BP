@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3AFC354-C27A-7EC2-EA26-9608703CAFD3" name="DIJAGNOZA">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 11:47:19 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sifrabol" id="300E0713-DF3C-BB03-5607-C12B8EBC2227">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:28:52 UTC</createdTime>
+<generatorID>EC091A5E-F303-A2F3-B268-9EA36939BD87</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<referedAttribute>A2828F29-ECE3-6F16-8B6C-33458D8D37B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpreg" id="839A65D7-0EE9-33CC-37C0-348F82DD956A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:27:24 UTC</createdTime>
+<generatorID>8D620F33-A8F9-7482-1EBF-DD362012FC88</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<referedAttribute>A9923E54-EC6F-E3BF-245B-9B6A05A1BCFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpac" id="22A5A669-8705-B41B-2000-58330D6D892F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:27:24 UTC</createdTime>
+<generatorID>8D620F33-A8F9-7482-1EBF-DD362012FC88</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<referedAttribute>ECF48187-CD76-31B0-D49A-A1FFC1783863</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opisdij" id="297A105C-8F8A-7F6F-DA93-DADF838B483F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 17:27:54 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BDB165AF-D774-FD74-47AA-02DF46D8C29A" name="DIJAGNOZA PK">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 13:39:34 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>300E0713-DF3C-BB03-5607-C12B8EBC2227</attributeRef>
+<attributeRef>839A65D7-0EE9-33CC-37C0-348F82DD956A</attributeRef>
+<attributeRef>22A5A669-8705-B41B-2000-58330D6D892F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

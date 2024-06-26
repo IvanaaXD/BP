@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TERAPIJA_DOZA" directorySegmentName="seg_0" id="A962FE90-E9F1-7A0A-FF69-2C5E91A76D64">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 20:29:44 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>27AA3472-34D2-4A6E-9F84-51C0F842102D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37F553C3-AA67-BA81-442A-AD312CB978CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

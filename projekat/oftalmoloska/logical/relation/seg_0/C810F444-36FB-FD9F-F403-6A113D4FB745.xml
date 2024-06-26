@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IZV_ANAM" directorySegmentName="seg_0" id="C810F444-36FB-FD9F-F403-6A113D4FB745">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:56:12 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="279AE970-622D-5203-1704-31DEE4FBE2A9" value="true"/>
+</engineerTo>
+<sourcePk>52797A78-11C2-003D-8D06-39F1CE644AAB</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8183A2D6-5AB5-C2EA-C3B5-B8EE91381FC3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A53013DC-83B2-F987-66A9-C0CC6648EC9B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

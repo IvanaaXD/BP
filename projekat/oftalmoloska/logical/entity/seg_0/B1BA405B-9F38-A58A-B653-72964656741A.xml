@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1BA405B-9F38-A58A-B653-72964656741A" name="UREDJAJ">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:06:58 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="69814627-2EF1-8A17-D182-B17B7B69A9A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idoft" id="0F56C500-CFEE-2527-1630-A1B09458D822">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:19:13 UTC</createdTime>
+<generatorID>13B1A344-BD93-5CAD-97E9-9A5A53FFFD6E</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="69814627-2EF1-8A17-D182-B17B7B69A9A9" value="true"/>
+</engineerTo>
+<referedAttribute>608A6D65-228C-8DC3-ED6C-6FD71D5DB448</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idobj" id="361632DD-C2FD-394C-2F3B-6EB0CACC959A">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:19:13 UTC</createdTime>
+<generatorID>13B1A344-BD93-5CAD-97E9-9A5A53FFFD6E</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="69814627-2EF1-8A17-D182-B17B7B69A9A9" value="true"/>
+</engineerTo>
+<referedAttribute>7F8708C0-D9BF-BC26-8DD0-C14D1A9C7715</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iduredj" id="603D27CA-A58A-A651-7E8B-A018E4670DE4">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:19:43 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="69814627-2EF1-8A17-D182-B17B7B69A9A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazivuredj" id="9D8B197C-4A9D-16DC-0A00-2B4AAB5ADF0F">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:20:17 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="69814627-2EF1-8A17-D182-B17B7B69A9A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idtipu" id="DA5265EF-FF10-D30F-439F-EC3682918B27">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:24:08 UTC</createdTime>
+<generatorID>AEB3E221-5310-E6DD-CB02-B7EBC3DEDC26</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="69814627-2EF1-8A17-D182-B17B7B69A9A9" value="true"/>
+</engineerTo>
+<referedAttribute>43F927C3-EBD5-206A-64D7-E11E0DE72546</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0BF4786-C996-D620-8C04-0954C1B8AB39" name="UREĐAJ PK">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 12:19:13 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="69814627-2EF1-8A17-D182-B17B7B69A9A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F56C500-CFEE-2527-1630-A1B09458D822</attributeRef>
+<attributeRef>361632DD-C2FD-394C-2F3B-6EB0CACC959A</attributeRef>
+<attributeRef>603D27CA-A58A-A651-7E8B-A018E4670DE4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

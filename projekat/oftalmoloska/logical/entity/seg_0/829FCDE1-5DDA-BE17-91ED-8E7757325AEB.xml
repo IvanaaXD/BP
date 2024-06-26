@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="829FCDE1-5DDA-BE17-91ED-8E7757325AEB" name="BIRA SE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:02:19 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="B36433CD-D4B1-727E-DEB3-EC18F44C4723" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idrad" id="7FF48F1A-9BF6-9A8F-4051-8F7B6F1065EC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:03:19 UTC</createdTime>
+<generatorID>E379FD83-7CDF-0048-4C63-95C32C0437B9</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="B36433CD-D4B1-727E-DEB3-EC18F44C4723" value="true"/>
+</engineerTo>
+<referedAttribute>AD229C60-354D-E01E-D335-28C3489FE0D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpreg" id="B1D31AD6-3EE1-E966-D610-BEDE17876FC5">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:07:21 UTC</createdTime>
+<generatorID>E53FBC58-656D-BD70-5219-11942EDC5387</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="B36433CD-D4B1-727E-DEB3-EC18F44C4723" value="true"/>
+</engineerTo>
+<referedAttribute>A9923E54-EC6F-E3BF-245B-9B6A05A1BCFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpac" id="975B84AE-E9E0-C53F-F498-5CA8058D0A18">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:18:28 UTC</createdTime>
+<generatorID>E53FBC58-656D-BD70-5219-11942EDC5387</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="B36433CD-D4B1-727E-DEB3-EC18F44C4723" value="true"/>
+</engineerTo>
+<referedAttribute>ECF48187-CD76-31B0-D49A-A1FFC1783863</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6027A851-7638-7490-20A1-829FFA05DEC4" name="BIRA SE PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:03:19 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="B36433CD-D4B1-727E-DEB3-EC18F44C4723" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7FF48F1A-9BF6-9A8F-4051-8F7B6F1065EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

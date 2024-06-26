@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37F553C3-AA67-BA81-442A-AD312CB978CA" name="TERAPIJA">
+<createdBy>Milica</createdBy>
+<createdTime>2024-06-10 11:47:27 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sifrabol" id="67F4AC3E-90FE-B230-C3B2-4DE258F0EC2E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 11:16:41 UTC</createdTime>
+<generatorID>0DEE097C-46B4-8F32-F224-1C3A888923BB</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<referedAttribute>300E0713-DF3C-BB03-5607-C12B8EBC2227</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpreg" id="BFE06BA9-4FA3-BD2D-6AC1-C7375C0B802B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 16:18:57 UTC</createdTime>
+<generatorID>0DEE097C-46B4-8F32-F224-1C3A888923BB</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<referedAttribute>839A65D7-0EE9-33CC-37C0-348F82DD956A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idpac" id="9E24B9C4-EC7D-4F75-2436-C05820AE1945">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 16:18:57 UTC</createdTime>
+<generatorID>0DEE097C-46B4-8F32-F224-1C3A888923BB</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<referedAttribute>22A5A669-8705-B41B-2000-58330D6D892F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25CE63CA-A969-2E56-71C5-92F6319D1BDD" name="TERAPIJA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 11:16:41 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="43919235-386A-BE0A-532C-F9F4C2338FF8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>67F4AC3E-90FE-B230-C3B2-4DE258F0EC2E</attributeRef>
+<attributeRef>BFE06BA9-4FA3-BD2D-6AC1-C7375C0B802B</attributeRef>
+<attributeRef>9E24B9C4-EC7D-4F75-2436-C05820AE1945</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

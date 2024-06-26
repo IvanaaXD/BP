@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="35C83047-4BA1-AC42-D810-75C672773ABC" containerWithKeyObject="A0A91E2E-BCB0-D38D-55E4-021423E54DFB" localFKIndex="CFF3F572-5A4A-AAB5-763A-0B7B031F9D91" name="MED_SESTRA_RADNIK_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>A5606698-1CFC-8151-A46D-6C19BEE1914D</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<referredTableLongName>RADNIK</referredTableLongName>
+<arc>040E4A1A-51AD-5A90-4D0E-49342B64B2E1</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E5F2568E-05BC-2C20-B2A0-9F76550CA5F5</referredTableID>
+<keyObject>5D69CCB3-4D95-DD5C-5E08-FC9FFFDF2800</keyObject>
+<referredKeyID>5D69CCB3-4D95-DD5C-5E08-FC9FFFDF2800</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idrad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>MED_SESTRA</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

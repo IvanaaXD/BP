@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POR_BOLESTI" directorySegmentName="seg_0" id="69DFF417-1325-80EF-BF12-E1232FC98430">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 10:14:52 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<sourcePk>22F3B47F-DC22-81C3-0863-8FF32EBD4B84</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A53013DC-83B2-F987-66A9-C0CC6648EC9B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5C2E125D-FCC2-A70C-13A1-7510A1DCBA81</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

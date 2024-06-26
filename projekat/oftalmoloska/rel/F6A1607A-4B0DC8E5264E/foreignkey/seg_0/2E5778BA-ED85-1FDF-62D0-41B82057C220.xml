@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2E5778BA-ED85-1FDF-62D0-41B82057C220" containerWithKeyObject="09AFC161-BE47-59EF-FB5B-DC9A023342DA" localFKIndex="45611B4E-F738-DD21-3AD0-782E0643494C" name="SPEC_PREGLED_UPUT_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 19:30:30 UTC</createdTime>
+<generatorID>EC3ACD56-5E16-659B-4BB8-4DB37A15302B</generatorID>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<referredTableLongName>UPUT</referredTableLongName>
+<arc>F049ACC9-8D59-9604-A48A-7473AF907191</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E0A2E54A-F268-8428-D18D-9EA89C70C850</referredTableID>
+<keyObject>D42F3F27-240C-F1AF-FF6C-A6972FDD7748</keyObject>
+<referredKeyID>D42F3F27-240C-F1AF-FF6C-A6972FDD7748</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>iduput</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>specpregled</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

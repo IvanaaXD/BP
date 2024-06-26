@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LEKAR_BIRA_SE_FK" directorySegmentName="seg_0" id="E379FD83-7CDF-0048-4C63-95C32C0437B9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2024-06-11 09:03:19 UTC</createdTime>
+<ownerDesignName>oftalmoloska</ownerDesignName>
+<engineerTo>
+<item key="B36433CD-D4B1-727E-DEB3-EC18F44C4723" value="true"/>
+</engineerTo>
+<sourcePk>D39B75E9-E0C3-C235-50E7-9D3625FBCD86</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>46B91C21-0650-BA8E-99AF-B7D876B3D744</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>829FCDE1-5DDA-BE17-91ED-8E7757325AEB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
